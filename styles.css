@@ -1,0 +1,188 @@
+.display-3 {
+  text-align: center;
+  width: 97%;
+  height: 110px;
+  margin: 20px;
+  color: teal;
+  padding: 5px;
+  border-left: 3px solid grey;
+  border-radius: 7px;
+  border-bottom: 3px solid grey;
+  background-color: #faf9f5;
+}
+
+.display-4 {
+  margin: 17px;
+  color: teal;
+}
+
+#fruits-img {
+  width: 504px;
+  height: 275px;
+  background-color: #e6e6e8;
+  padding: 2px;
+}
+
+#fruits1 {
+  margin: 0px;
+}
+
+#fruits3 {
+  margin-left: -5px;
+}
+
+#container {
+  width: 100%;
+  height: auto;
+  /*border: 1px solid red;*/
+  margin: 0px;
+}
+
+#fruit-desc {
+  width: 97%;
+  height: 110px;
+  text-align: justify;
+  margin: 20px;
+  padding: 5px;
+  clear: both;
+  float: left;
+}
+
+.source {
+  color: teal;
+}
+
+#stat {
+  margin-top: 190px;
+  margin-left: 20px;
+  width: 97%;
+  clear: both;
+  float: left;
+  /*border: 1px solid black;*/
+}
+
+.table {
+  clear: both;
+  float: left;
+}
+
+@media (max-width: 94%) {
+  .table {
+    width: 60%;
+  }
+}
+
+.hed3 {
+  color: teal;
+  font-size: 30px;
+  text-align: center;
+}
+
+#links {
+  clear: both;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.hed4 {
+  color: teal;
+  font-size: 30px;
+  width: 180px;
+  border-right: 2px solid teal;
+}
+
+#links > ul > li > a {
+  color: #050f52;
+  text-decoration: none;
+}
+
+#links > ul > li > a:hover {
+  color: blue;
+  border-bottom: 2px solid teal;
+}
+
+#fruit-desc > ul > li > a {
+  color: #050f52;
+  text-decoration: none;
+}
+
+#fruit-desc > ul > li > a:hover {
+  color: blue;
+  border-bottom: 2px solid teal;
+}
+
+#fruit-desc ul li {
+  color: teal;
+}
+
+#fruit-nutri {
+  width: 97%;
+  height: 110px;
+  text-align: justify;
+  margin: 20px;
+  padding: 5px;
+  clear: both;
+  float: left;
+}
+
+.grid {
+  display: grid;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  grid-template-columns: 300px 300px auto auto;
+}
+
+.grid-item {
+  background-color: #faf9f5;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.grid-head {
+  color: teal;
+}
+
+#classy {
+  width: 97%;
+  margin-top: 70px;
+  margin-left: 20px;
+  clear: both;
+  float: left;
+}
+
+.hed5 {
+  color: teal;
+  font-size: 30px;
+  text-align: center;
+  background-color: #faf9f5;
+}
+
+.buld {
+  font-weight: bold;
+}
+
+#classy-table {
+  border-top: 2px solid teal;
+  margin-top: -10px;
+  border-bottom: 2px solid teal;
+}
+
+#signup {
+  width: 50%;
+  margin: 20px;
+  height: auto;
+}
+
+#up-link {
+
+  float: right;
+}
+
+p::selection {
+  background-color: blue;
+  color: white;
+}
